@@ -15,3 +15,9 @@
 th {
     font-weight: bold;
 }
+
+body {
+    background-image: url(../Image/2018-03-29T141701Z_1_LYNXMPEE2S16U_RTROPTP_4_INDIA-UNEMPLOYMENT-RAILWAYS.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
