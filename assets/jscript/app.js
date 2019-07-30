@@ -1,3 +1,16 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyDrfHJ-QzANHSpU1FbqUD_eG2WDOg-euwY",
+    authDomain: "cbcfirebase-3962a.firebaseapp.com",
+    databaseURL: "https://cbcfirebase-3962a.firebaseio.com",
+    projectId: "cbcfirebase-3962a",
+    storageBucket: "",
+    messagingSenderId: "968045013178",
+    appId: "1:968045013178:web:6cc053916d453f34"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+
 function currentTime() {
     var current = moment().format('LT');
     $("#currentTime").html(current);
